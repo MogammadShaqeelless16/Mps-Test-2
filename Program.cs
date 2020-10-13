@@ -13,7 +13,7 @@ namespace Treehouse.PracticeSession
             bool stillAddingItems = true;
 
             while(stillAddingItems)
-            {
+            { 
                 Console.Clear();
                 Console.WriteLine("What would you like to do? ");
                 Console.WriteLine("Type 'add' to add an item.");
@@ -34,7 +34,7 @@ namespace Treehouse.PracticeSession
             
                     case "Checkout":
                         {
-                            double total = price +  * 1.15 * price<list>;
+                            double total = price  * 1.15 + price<list>;
 
                             foreach (string itemName in cart.GetCartIteminfo())
                             {
