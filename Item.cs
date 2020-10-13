@@ -3,18 +3,43 @@ using System.Collections.Generic;
 
 namespace Treehouse.PracticeSession
 {
-    class Item
+class Item
     {
-        private int ID;
-        public string Name;
-
-        public Item(int id, string name)
+        private int _key;
+        public int Key
         {
-            ID = id;
-            Name = name;
+            get
+            {
+                return _key;
+            }
+           set
+            {
+                _key = value;
+            }
         }
 
+        private string _ItemName;
 
-        
+        public string ItemName
+        {
+            get { return _ItemName; }
+            set { _ItemName = value; }
+        }
+
+        public Item()
+        {
+
+        }
+
+        public Item(int key, string itemName)
+        {
+            this._key = key;
+            this._ItemName = itemName;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("ID: {0}; Name: {1}。",_key,_ItemName);
+        }
     }
 }

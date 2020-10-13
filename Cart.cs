@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Treehouse.PracticeSession
+namespace Shopping
 {
     class Cart
     {
@@ -17,22 +17,21 @@ namespace Treehouse.PracticeSession
 
         public string AddToCart(string itemName)
         {
-            Item item = new Item(items.Count + 1, itemName);
+            double itemprice = Convert.ToDouble(Console.ReadLine());
+            Item item = new Item(items.Count + 1, itemName , itemprice );
             this.items.Add(item);
             return item.Name;
         }
 
-        public IEnumerable<string> GetCartItemNames()
+        public IEnumerable<string> GetCartIteminfo()
         {
             foreach (var item in this.items)
             {
                 yield return item.Name;
+                yield return item.Price.ToString();
+
             }
         }
 
-        public void Clear()
-        {
-            this.items.Clear();
-        }
     }
 }

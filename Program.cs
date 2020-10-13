@@ -7,52 +7,35 @@ namespace Treehouse.PracticeSession
     {
         public static void Main()
         {
-            Cart cart = new Cart();
 
-            bool stillAddingItems = true;
+  ShoppingCart sc = new ShoppingCart();
 
-            while(stillAddingItems)
+            var item1 = new Collections.Item();
+            item1.Key = 1;
+            item1.ItemName = "Huawei V8";
+            sc.Add(item1);
+
+            var item2 = new Collections.Item();
+            item2.Key = 2;
+            item2.ItemName = "Huawei V9";
+            sc.Add(item2);
+
+            var item3 = new Collections.Item();
+            item3.Key = 3;
+            item3.ItemName = "Huawei V10";
+            sc.Add(item3);
+
+            Console.WriteLine("使用索引器，输出对象：");
+            Console.WriteLine(sc[3].ToString());
+
+            Console.WriteLine("集合中对象数量：");
+            Console.WriteLine(sc.Count);
+
+            Console.WriteLine("列出所有对象：");
+            sc.Items.ForEach(delegate (Collections.Item item)
             {
-                Console.Clear();
-                Console.WriteLine("What would you like to do? ");
-                Console.WriteLine("Type 'add' to add an item.");
-                Console.WriteLine("Type 'remove' to add an item.");
-                Console.WriteLine("Type 'show' to show your list.");
-                Console.WriteLine("Type 'clear' to delete all items from list.");
-                Console.WriteLine("Type 'quit' to quit.");
-                string response = Console.ReadLine();
-                Console.Clear();
-                switch (response)
-                {
-                    case "add":
-                        {
-                            Console.Write("What item would you like to add? ");
-                            string whatTheUserTyped = Console.ReadLine();
-                            cart.AddToCart(whatTheUserTyped);
-                            break;
-                        }
-                    case "quit":
-                        {
-                            stillAddingItems = false;
-                            break;
-                        }
-                    case "show":
-                        {
-                            foreach (string itemName in cart.GetCartItemNames())
-                            {
-                                Console.WriteLine(itemName);
-                            }
-                            Console.WriteLine("Press enter to continue");
-                            Console.ReadLine();
-                            break;
-                        }
-                    case "clear":
-                        {
-                            cart.Clear();
-                            break;
-                        }
-                }
-            }
+                Console.WriteLine(item.ToString());
+            });
 
             
         }

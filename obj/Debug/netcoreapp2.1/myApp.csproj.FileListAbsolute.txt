@@ -9,3 +9,15 @@ C:\Users\hawki\Desktop\software_development\myApp\myApp\bin\Debug\netcoreapp2.1\
 C:\Users\hawki\Desktop\software_development\myApp\myApp\bin\Debug\netcoreapp2.1\myApp.pdb
 C:\Users\hawki\Desktop\software_development\myApp\myApp\obj\Debug\netcoreapp2.1\myApp.dll
 C:\Users\hawki\Desktop\software_development\myApp\myApp\obj\Debug\netcoreapp2.1\myApp.pdb
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\bin\Debug\netcoreapp2.1\myApp.deps.json
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.json
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.dev.json
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\bin\Debug\netcoreapp2.1\myApp.dll
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\bin\Debug\netcoreapp2.1\myApp.pdb
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.csprojAssemblyReference.cache
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.AssemblyInfoInputs.cache
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.AssemblyInfo.cs
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.csproj.CoreCompileInputs.cache
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.dll
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.pdb
+C:\Users\Shaqeel\Desktop\assignment for allan\shopping\obj\Debug\netcoreapp2.1\myApp.genruntimeconfig.cache
